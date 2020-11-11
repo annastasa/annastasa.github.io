@@ -7,27 +7,27 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  
   <ul class="nav">
-    <li class="nav-item-left ling"><a href="#" style="color: black;">funlearn.id</a></li>
-    <li class="nav-item-right"><a href="#">MENU</a>
-      <ul>
-        <li><a href="#">SUNLIGHTZONE</a></li>
-        <li><a href="#">TWILIGHTZONE</a></li>
-      </ul>
-    </li>
-    <li class="nav-item-right"><a href="#">CONTACT</a></li>
-    <li class="nav-item-right"><a href="#">ABOUT US</a></li>
-    <li class="nav-item-right"><a href="#">HOME</a></li>
+    <li class="nav-item-left ling"><a href="#" style="color: white; text-shadow: 2px 2px black; font-size: xx-large;">funlearn.id</a></li>
+    <div class="navbar-menu">
+      <li class="nav-item-right"><a href="#">MENU <strong>˄</strong></a>&emsp;</li>
+        <div class="dropdown-content">
+          <li><a href="#sunlight">• &nbsp; The Sunlight Zone</a></li>
+          <li><a href="#twilight">• &nbsp; The Twilight Zone</a></li>
+        </div>
+    </div>
+    <li class="nav-item-right"><a href="#contact">CONTACT</a>&ensp;</li>
+    <li class="nav-item-right"><a href="#about">ABOUT US</a>&ensp;</li>
+    <li class="nav-item-right" id="home"><a href="#home">HOME</a>&ensp;</li>
   </ul>
   
   <div class="container-title">
     <h1 class="judul">Let's Explore <span style="color: blue">Underwater</span> Experience</h1>
     <h3 style="color: white;">Mengenal jenis-jenis hewan laut berdasarkan kedalaman air laut</h3>
-    <button class="btn-1 explore">Explore</button>
+    <button class="btn-1 explore"><a href="#salmon">Explore</a></button>
   </div>
   <div class="row" style="margin-top: 80vh;">
-    <div class="col-6 ikan text-center">
+    <div class="col-6 ikan text-center" id="salmon">
       <img src="img/atlantic-salmon.png">
       <p>SALMON ATLANTIS</p>
     </div>
@@ -39,7 +39,7 @@
       <img src="img/striped-bass.png">
       <P>IKAN BASS BERGARIS</P>
     </div>
-    <div class="zone1 text-center col-12" id="zone-top">
+    <div class="zone1 text-center col-12" id="sunlight">
       <h1>The Sunlight Zone</h1>
     </div>
   </div>
@@ -132,7 +132,7 @@
       <img src="img/dentex.png">
       <p>DENTEX</p>
     </div>
-    <div class="zone2 text-center col-12" id="zone-bot">
+    <div class="zone2 text-center col-12" id="twilight">
       <h1>The Twilight Zone</h1>
     </div>
     <div class="col-12 ikan text-center">
@@ -164,16 +164,21 @@
     <p>HIU PASIR</p>
     </div>
   </div>
-
-  <div class="text-center" style="margin-top: 132vh; color: #ccc;">
+  
+  <div class="text-center" style="margin-top: 132vh; color: #ccc;" id="about">
     <div class="saran">
 			<h1 class="text-center jdl">funlearn.id</h1>
 			<p class="text-center deskripsi">Virtual learing untuk menjelajahi, melihat, bermain dan menikmati dunia dibawah laut.<br>
       Ditujukan untuk anak usia pra sekolah dan sekolah.</p>
     </div>
   </div>
-  <div class="text-center">
+  <br> <br> <br> <br> <br> <br> <br> <br>
+  <br> <br> <br> <br> <br> <br> <br> <br>
+  <br> <br> <br> <br> <br> <br> <br> <br>
+  <br> <br> <br> <br> <br> <br> <br> <br>
+  <div class="text-center" id="contact">
     <div>
+      <h1 style="color: white; font-family: arial;">Contact Us</h1>
         <input type="text" placeholder="Your Name">
         <input type="text" placeholder="Your Email">
         <textarea placeholder="Message"></textarea>

@@ -166,3 +166,39 @@ nav {
 	font-family: Humnst777;
 	color: white;
 }
+.dropdown-content{
+	display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: right;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #3dbf8d;
+}
+
+.navbar-menu:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    right: 0%;
+		margin-top: 18px;
+}
+
+.nav li a {
+	font-weight: 500;
+}
+
+.nav li a:hover {
+	color: white;
+}
+
