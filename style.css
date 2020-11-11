@@ -140,13 +140,15 @@ nav {
 	border: solid 2px white;
 }
 
+.about{
+	margin-bottom: 400px;
+}
 
 .jdl {
 	font-family: salmon sensei;
 }
 
 .deskripsi {
-
 	font-family: arial;
 }
 
@@ -158,7 +160,7 @@ nav {
 
 .zone1 h1{
 	font-size: 70px;
-	color: #222424;
+	color: #e0fffe;
 	font-family: Century751;
 }
 
