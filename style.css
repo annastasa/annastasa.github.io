@@ -175,7 +175,6 @@ nav {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    float: right;
 }
 
 .dropdown-content a {
@@ -193,7 +192,7 @@ nav {
     display: block;
     position: absolute;
     right: 0%;
-		margin-top: 18px;
+	margin-top: 18px;
 }
 
 .nav li a {
