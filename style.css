@@ -72,6 +72,7 @@ input[type=text], textarea {
 	width: 60%;
 	padding: 12px 20px;
 	margin: 8px 0;
+	display: inline-block;
 	border: 5px solid #ccc;
 	border-radius: 4px;
 	box-sizing: border-box;
@@ -104,11 +105,7 @@ display: table;
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-  
-nav {
-	margin-right: 100px;
-	margin-left: 80px;
-}
+
 
 .judul1 {
 	margin-top: 100px;
