@@ -12,11 +12,7 @@ body {
 * {
 box-sizing: border-box;
 }
-
-.display-block{
-	display: block;
-}
-  
+ 
 .nav{
 	list-style-type: none;
 	overflow: hidden;
@@ -76,7 +72,6 @@ input[type=text], textarea {
 	width: 60%;
 	padding: 12px 20px;
 	margin: 8px 0;
-	display: inline-block;
 	border: 5px solid #ccc;
 	border-radius: 4px;
 	box-sizing: border-box;
