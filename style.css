@@ -195,3 +195,53 @@ display: table;
 	color: white;
 }
 
+.slidercontainer {
+	top: 30vh;
+}
+
+.slider {
+	-webkit-appearance: none;
+	top: 50vh;
+	right: calc(4vw - 20px);
+  width: 75vh;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.85;
+  -webkit-transition: .2s;
+	transition: opacity .2s;
+	transform-origin: center top;
+	transform: translateX(50%) rotate(90deg);
+	position: fixed;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slidertext {
+	color: white;
+	text-shadow: 2px black;
+	top: 21vh;
+	right: 5vw;
+	position: fixed;
+}
