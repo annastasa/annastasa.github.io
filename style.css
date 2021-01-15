@@ -3,6 +3,8 @@
 	src: url('Sensei-Medium.ttf');
   }
 
+html {scroll-behavior: smooth;}
+
 body {
 	background-image: url("fullbg.jpg");
 	background-repeat: no-repeat;
